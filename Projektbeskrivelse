@@ -1,3 +1,63 @@
-# M6-Eksamen
-hello
-hello again
+# Projektbeskrivelse
+
+Projekt: Klageportal til Aalborg Universitetshospital
+Gruppe: Thomas, Kasper, Lasse
+Kursus: M6 - Design af IT-baserede systemer, IT-Ledelse, 2. semester
+
+# 1. Indledning
+Denne projektbeskrivelse fastlægger rammerne for vores arbejde med M6. Formålet med modulet er ifølge opgavebeskrivelsen at opstille en fælles udviklingsproces hvor vi som lille team kan samarbejde om at producere kode, teknisk dokumentation og designdokumenter gennem et fælles, filbibliotek. Herunder afleveres et produkt, som er en simpel hjemmeside der skal dække det tekniske aspekt af opgaven. Det skal være med til at ive udviklingsprocessen mening.
+
+Vi har valgt at lave en klageportal til Aalborg Universitetshospital. Valget er truffet af to grunde. For det første har casen flere tydelige interessenter (patient, pårørende, sagsbehandler, ledelse), hvilket gør det meningsfuldt at modellere use cases. For det andet har den en naturlig procesflow fra modtaget klage til afsluttet sag, der egner sig godt til activity-diagrammer. 
+
+# 2. Produktbeskrivelse
+Klageportalen er en statisk hjemmeside hvor patienter og pårørende kan finde information om klagerettigheder, indsende en klage via en formular og slå op i en oversigt over deres sager. Portalen er målrettet borgere uden særlige IT-forudsætninger og lægger vægt på et roligt, tilgængeligt visuelt udtryk.
+
+Hjemmesiden består af:
+
+| Side | Indhold |
+`index.html`- Forside med kort introduktion og indgang til de vigtigste funktioner 
+`om-portalen.html`- Beskrivelse af portalens formål og hvad den kan 
+`indsend-klage.html`- Selvbetjeningsformular til indsendelse af klage 
+`klagetyper.html`- Oversigt over hvilke typer klager portalen håndterer 
+`mine-sager.html`- Mockup af sagsoversigt med statusvisning 
+`patientrettigheder.html`- Information om patientens rettigheder 
+`kontakt.html`- Kontaktinformation og adresser 
+`faq.html`- Ofte stillede spørgsmål 
+`privatlivspolitik.html`- GDPR-relevant information 
+
+# 3. Afgrænsning
+Portalen er en prototype og indeholder IKKE
+- Reel autentificering eller MitID-integration
+- En backend eller database (sagsoversigten er mocket i HTML)
+- Behandling af reelle personoplysninger
+- Integration til hospitalets eksisterende systemer
+
+Disse er bevidst skåret fra fordi fokus er på udviklingsprocessen og mindre det tekniske
+
+# 4. Udviklingsproces
+Vi har valgt at arbejde efter en "Scrum-light" model, som beskrevet af Sommerville (2016, kapitel. 3). Scrum er valgt frem for ren plan-driven udvikling fordi vi har været begrænset på tid og forventer at vores forståelse af produktet vil skifte undervejs. Samtidig har vi skåret nogle af Scrum-ceremonierne ned i omfang for at passe metoden til projektets størrelse. Ifølge Sommerville (2016, s. 72) bør agile metoder tilpasses kontekst og ikke følges slavisk.
+
+Konkret betyder det:
+
+- *2 sprints* (sprint 1: setup, design og dokumentation --- sprint 2: implementering og test)
+- *Sprint planlægning* indleder hvert sprint 
+- *Daily standup* om morgenen 
+- *Sprint review og retrospective* afslutter hvert sprint
+
+# 5. Roller
+Vi har fordelt rollerne efter den enkeltes interesseområde, men alle bidrager på tværs 
+
+- Thomas — Frontend Lead (HTML-struktur, brugerflows)
+- Kasper — Backend / Struktur (mappestruktur, mockup-data, repo-konfiguration)
+- Lasse — Dokumentation / Design (CSS, UML, retrospective)
+
+# 6. Opgavens afrunding
+1. Færdig GitHub-repository med kode og dokumentation
+2. Projektbeskrivelse - (dette dokument)
+3. Designdokument
+4. Use Case- og Activity-diagram
+5. Roadmap
+6. Rollebeskrivelser
+7. Projektplan
+8. Styringsværktøj (GitHub Project board)
+9. Retrospective
