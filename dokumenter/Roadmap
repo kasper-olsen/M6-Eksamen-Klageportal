@@ -1,6 +1,7 @@
 # Roadmap
 
-Et roadmap er et redskab til at kommunikere projektets retning over tid, og dermed ikke en detaljeret plan, men et overblik over større faser samt milepæle. Vores roadmap viser det vi rent faktisk har opnået og steder hvor portalen kunne udvikles hen i fremtiden.
+Et roadmap er et redskab til at kommunikere projektets retning over tid, og dermed ikke en detaljeret plan, men et overblik over større faser samt milepæle. 
+Vores roadmap viser det vi rent faktisk har opnået og steder hvor portalen kunne udvikles hen i fremtiden.
 
 # Oversigt
 
@@ -18,7 +19,7 @@ Setup & Design            Implementering & Test     Reelle features
 
 ■ = Leveret i opgaven    ○ = Uden for scope (fremtidig idé)
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Sprint 1: Setup, Design og Dokumentation (Dag 1)
 
 *Mål:* Have alle rammer på plads, så Sprint 2 kan fokusere på implementering
@@ -35,6 +36,7 @@ Setup & Design            Implementering & Test     Reelle features
 - Alle tre i gruppen kan klone repository og åbne det lokalt
 - Sprint review er gennemført
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Sprint 2: Implementering og Aflevering (Dag 2)
 
 *Mål:* Færdiggøre alt kode og afslutte dokumentationen
