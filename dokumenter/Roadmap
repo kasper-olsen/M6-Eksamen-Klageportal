@@ -57,8 +57,8 @@ Setup & Design            Implementering & Test     Reelle features
 # Hypotetisk videreudvikling af projektet
 Dette punkt omhandler hvordan projektet kunne se ud i fremtiden, med et større teknisk fokus
 
-| Område | Tænkt feature | Begrundelse |
-
-| Backend - Firestore-database til sager - Vil gøre portalen reelt brugbar |
-| Sikkerhed - MitID-login - Krav for håndtering af følsomme oplysninger |
-| Analytics - Dashboard til ledelse - Strategisk indblik i klager og mønstre derved |
+| Område       | Tænkt feature                   | Begrundelse 
+___________________________________________________________________________________________________
+| Backend      | Firestore-database til sager    | Vil gøre portalen reelt brugbar
+| Sikkerhed    | MitID-login                     | Krav for håndtering af følsomme oplysninger
+| Analytics    | Dashboard til ledelse           | Strategisk indblik i klager og mønstre derved
