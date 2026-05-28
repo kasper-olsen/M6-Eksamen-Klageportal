@@ -1,4 +1,49 @@
 Rollebeskrivelser
+
 Vi har bevidst fordelt rollerne efter interesse og styrker, men ingen er låst til kun at arbejde inden for egen rolle. 
 Alle commit'er til alle dele af repository'et undervejs — rollerne styrer primært hvem der har det overordnede ansvar.
 
+-------------------------------------------------------------------------------------------------------------------------
+Thomas — Frontend Lead
+Primært ansvar: HTML-struktur, sammenhæng på tværs af siderne, brugerflows.
+
+Konkrete opgaver:
+
+Etablerer den overordnede HTML-struktur og navigationen
+Retter og opretter index.html, indsend-klage.html og mine-sager.html
+Faciliterer daily standups
+Tovholder på Pull Requests
+
+-------------------------------------------------------------------------------------------------------------------------
+Kasper — Backend / Struktur
+Primært ansvar: Repository-struktur, mappeorganisering, mockup-data, GitHub-konfiguration.
+
+Konkrete opgaver:
+
+Sætter GitHub repository op (branches, branch-protection, README)
+Konfigurerer GitHub Project board
+Retter og opretter om-portalen.html, klagetyper.html og patientrettigheder.html
+Står for tekniske detaljer omkring versionsstyring og merges
+Skriver teknisk dokumentation om repo-strukturen
+
+------------------------------------------------------------------------------------------------------------------------
+Lasse — Dokumentation / Design
+Primært ansvar: CSS, visuelt udtryk, UML-diagrammer, projektdokumenter.
+
+Konkrete opgaver:
+
+Retter og opretter style.css, forms.css og responsive.css
+Tegner Use Case- og Activity-diagrammer (Lucidchart)
+Forfatter designdokument og retrospective
+Reviewer dokumentationen for sproglig kvalitet
+Skriver kontakt.html, faq.html og privatlivspolitik.html
+
+------------------------------------------------------------------------------------------------------------------------
+Fælles ansvar
+Selvom rollerne giver det overordnede ejerskab, er der områder hvor alle tre bidrager:
+
+Daily standup: Alle deltager, Thomas faciliterer
+Sprint review: Alle præsenterer eget arbejde
+Retrospective: Alle bidrager med observationer; Lasse skriver det sammen
+Code review: Mindst ét gruppemedlem reviewer hver Pull Request før merge
+Eksamen: Alle skal kunne tale om hele projektet, ikke kun egen del
