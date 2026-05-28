@@ -2,6 +2,7 @@
 
 Vi har valgt at bruge *GitHub Projects* som styringsværktøj, konfigureret som et *Kanban-board*. Dette dokument beskriver hvorfor vi valgte det, hvordan det er sat op, og hvordan vi har brugt det i praksis.
 
+
 # Hvorfor Kanban (faktisk scrumban) 
 
 Vi arbejder med Scrum-light som overordnet metode og vi valgte et Kanban-board som visualisering. Begrundelsen er:
@@ -14,9 +15,11 @@ Burn-Down chart | God til at se fremdrift over tid | Ville kræve mange datapunk
 
 Kanban er særligt egnet til mindre teams hvor man vil have en let visualisering af WIP (work-in-progress) uden Scrum ceremonier. Vi bruger dog få Scrum ceremonier(sprints/stand up), men Kanban til visualiseringen
 
+
 # WIP limit
 
 Vi forsøger at have en uformel WIP (work in progress) limit på *2 opgaver pr. person* i "In Progress" kolonnen. Det skal forhindre at den enkelte spreder sig for tyndt eller det bliver uoverskueligt at se hvad de andre arbejder på.
+
 
 # Sådan har vi brugt boardet
 
