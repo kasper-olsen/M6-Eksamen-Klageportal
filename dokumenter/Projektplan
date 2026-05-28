@@ -1,12 +1,14 @@
 #Projektplan
 
-Denne projektplan beskriver hvordan vi konkret bryder arbejdet ned i opgaver, og hvordan opgaverne fordeles på personer og sprints. Roadmappet er med til at vise retningen, projektplanen skal vise udførelsen.
+Denne projektplan beskriver hvordan vi konkret bryder arbejdet ned i opgaver, og hvordan opgaverne fordeles på personer og sprints. 
+Roadmappet er med til at vise retningen, projektplanen skal vise udførelsen.
 
 ### Sprint 1 — Setup, Design og Dokumentation
 
 *Varighed:* 1 dag (ca. 6-8 arbejdstimer pr. person)
 *Sprint mål:* Klargøre alt nødvendigt sådan at Sprint 2 kun omhandler implementering
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Opgavefordeling Sprint 1:
 
 Opgave | Ansvarlig 
@@ -24,6 +26,7 @@ Skriv designdokument | Lasse
 Skriv styringsværktøj-dokument | Kasper 
 Sprint review | Alle 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Sprint 2 — Implementering og udgivelse
 
 *Varighed:* 1 dag (ca. 6-8 arbejdstimer pr. person)
@@ -50,7 +53,7 @@ Cross-browser test | Alle
 Skriv retrospective | Lasse / alle 
 Sprint review + aflevering | Alle 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Ceremonier
 
 | Ceremoni | Tidspunkt | Formål |
