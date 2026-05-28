@@ -1,64 +1,65 @@
-#Projektplan
+Projektplan
 
 Denne projektplan beskriver hvordan vi konkret bryder arbejdet ned i opgaver, og hvordan opgaverne fordeles på personer og sprints. 
 Roadmappet er med til at vise retningen, projektplanen skal vise udførelsen.
 
-### Sprint 1 — Setup, Design og Dokumentation
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Sprint 1 — Setup, Design og Dokumentation
 
-*Varighed:* 1 dag (ca. 6-8 arbejdstimer pr. person)
-*Sprint mål:* Klargøre alt nødvendigt sådan at Sprint 2 kun omhandler implementering
+Varighed: 1 dag (ca. 6-8 arbejdstimer pr. person)
+Sprint mål: Klargøre alt nødvendigt sådan at Sprint 2 kun omhandler implementering
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 Opgavefordeling Sprint 1:
 
-Opgave | Ansvarlig 
-___________________
-Opret GitHub repository + inviter gruppen | Kasper 
-Konfigurer GitHub Project board | Kasper 
-Etabler mappestruktur i repository | Kasper 
-Skriv projektbeskrivelse | Thomas 
-Skriv rollebeskrivelser | Lasse 
-Skriv roadmap | Thomas 
-Skriv projektplan *(dette dokument)* | Thomas 
-Tegn Use Case-diagram | Lasse 
-Tegn Activity-diagram | Lasse 
-Skriv designdokument | Lasse 
-Skriv styringsværktøj-dokument | Kasper 
-Sprint review | Alle 
+Opgave                                        | Ansvarlig 
+_________________________________________________________                           
+Opret GitHub repository + inviter gruppen     | Kasper 
+Konfigurer GitHub Project board               | Kasper 
+Etabler mappestruktur i repository            | Kasper 
+Skriv projektbeskrivelse                      | Thomas 
+Skriv rollebeskrivelser                       | Lasse 
+Skriv roadmap                                 | Thomas 
+Skriv projektplan *(dette dokument)*          | Thomas 
+Tegn Use Case-diagram                         | Lasse 
+Tegn Activity-diagram                         | Lasse 
+Skriv designdokument                          | Lasse 
+Skriv styringsværktøj-dokument                | Kasper 
+Sprint review                                 | Alle 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-### Sprint 2 — Implementering og udgivelse
+Sprint 2 — Implementering og udgivelse
 
-*Varighed:* 1 dag (ca. 6-8 arbejdstimer pr. person)
-*Sprint mål:* Færdig kode, færdig teknisk dokumentation, gennemført retrospective
+Varighed: 1 dag (ca. 6-8 arbejdstimer pr. person)
+Sprint mål: Færdig kode, færdig teknisk dokumentation, gennemført retrospective
 
 Opgavefordeling Sprint 2:
 
-Opgave | Ansvarlig 
-___________________
-Implementér `index.html` | Thomas 
-Implementér `indsend-klage.html` | Thomas 
-Implementér `mine-sager.html` | Thomas 
-Implementér `om-portalen.html` | Kasper 
-Implementér `klagetyper.html` | Kasper 
-Implementér `patientrettigheder.html` | Kasper
-Implementér `kontakt.html` | Lasse 
-Implementér `faq.html` | Lasse 
-Implementér `privatlivspolitik.html` | Lasse 
-Skriv `style.css` | Lasse 
-Skriv `forms.css` | Lasse
-Skriv `responsive.css` | Lasse 
-Skriv teknisk dokumentation | Kasper 
-Cross-browser test | Alle 
-Skriv retrospective | Lasse / alle 
-Sprint review + aflevering | Alle 
+Opgave                                 | Ansvarlig 
+____________________________________________________                    
+Implementér `index.html`               | Thomas 
+Implementér `indsend-klage.html`       | Thomas 
+Implementér `mine-sager.html`          | Thomas 
+Implementér `om-portalen.html`         | Kasper 
+Implementér `klagetyper.html`          | Kasper 
+Implementér `patientrettigheder.html`  | Kasper
+Implementér `kontakt.html`             | Lasse 
+Implementér `faq.html`                 | Lasse 
+Implementér `privatlivspolitik.html`   | Lasse 
+Skriv `style.css`                      | Lasse 
+Skriv `forms.css`                      | Lasse
+Skriv `responsive.css`                 | Lasse 
+Skriv teknisk dokumentation            | Kasper 
+Cross-browser test                     | Alle 
+Skriv retrospective                    | Lasse / alle 
+Sprint review + aflevering             | Alle 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## Ceremonier
+Ceremonier
 
-| Ceremoni | Tidspunkt | Formål |
-_________________________________
-| Sprint planning | Start af hver sprint | Bryde sprint-mål ned i konkrete opgaver |
-| Daily standup | Hver morgen | Hvad laver jeg? Blokeringer m.m.? |
-| Sprint review | Slutningen af hvert sprint | Gennemgang af færdige opgaver |
-| Retrospective | Sidst i Sprint 2 | Refleksion over processen |
+| Ceremoni          | Tidspunkt                    | Formål 
+____________________________________________________________________________________________
+| Sprint planning   | Start af hver sprint         | Bryde sprint-mål ned i konkrete opgaver
+| Daily standup     | Hver morgen                  | Hvad laver jeg? Blokeringer m.m.?
+| Sprint review     | Slutningen af hvert sprint   | Gennemgang af færdige opgaver
+| Retrospective     | Sidst i Sprint 2             | Refleksion over processen
