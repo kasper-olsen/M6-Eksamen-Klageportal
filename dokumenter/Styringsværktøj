@@ -8,7 +8,7 @@ Hvorfor Kanban (faktisk scrumban)
 Vi arbejder med Scrum-light som overordnet metode og vi valgte et Kanban-board som visualisering. Begrundelsen er:
 
 Værktøj          |   Relevans for projekt                                   | Vurdering  
-                 |                                                          |
+_________________________________________________________________________________________________________________________________________________
 Kanban-board     |   Visualiserer flow; let at se hvad alle laver lige nu   | Valgt til oversigt
 Scrum-board      |   Sprint-orienteret; mere overhead i opsætning           | Vi har valgt ideen om sprints fra scrum
 Burn-Down chart  |   God til at se fremdrift over tid                       | Ville kræve mange datapunkter. Vi har kun 2 dage så derfor fravalgt
@@ -20,13 +20,15 @@ Vi bruger dog få Scrum ceremonier(sprints/stand up), men Kanban til visualiseri
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 WIP limit
 
-Vi forsøger at have en uformel WIP (work in progress) limit på *2 opgaver pr. person* i "In Progress" kolonnen. Det skal forhindre at den enkelte spreder sig for tyndt eller det bliver uoverskueligt at se hvad de andre arbejder på.
+Vi forsøger at have en uformel WIP (work in progress) limit på *2 opgaver pr. person* i "In Progress" kolonnen. 
+Det skal forhindre at den enkelte spreder sig for tyndt eller det bliver uoverskueligt at se hvad de andre arbejder på.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Sådan har vi brugt boardet
 
 Start af Sprint 1
-Vi oprettede alle opgaver fra projektplanen som issues og placerede dem i Backlog. Under sprint planning trak vi de opgaver vi mente var realistiske for dag 1 over i "To Do".
+Vi oprettede alle opgaver fra projektplanen som issues og placerede dem i Backlog. 
+Under sprint planning trak vi de opgaver vi mente var realistiske for dag 1 over i "To Do".
 
 Under sprintet
 Når en person påbegynder en opgave, trækker han den til "In Progress" og assignede sig selv. 
@@ -39,6 +41,8 @@ Vi gennemgår "review"-kolonnen sammen og diskuterede, om alle acceptkriterier e
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Refleksion over brugen
 
-Boardet har fungeret som et fælles overblik, så vi alle tre kunne se hvad de andre lavede uden at skulle spørge. Det har især været nyttigt for at undgå at to begyndte på samme opgave.
+Boardet har fungeret som et fælles overblik, så vi alle tre kunne se hvad de andre lavede uden at skulle spørge. 
+Det har især været nyttigt for at undgå at to begyndte på samme opgave.
 
-Vi har lært at det er let at glemme at trække issues mellem kolonner flere gange opdagede vi at "In Progress" kolonnen var fuld af opgaver der reelt var færdige.
+Vi har lært at det er let at glemme at trække issues mellem kolonner
+flere gange opdagede vi at "In Progress" kolonnen var fuld af opgaver der reelt var færdige.
