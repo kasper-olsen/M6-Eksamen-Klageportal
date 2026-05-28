@@ -3,7 +3,7 @@ Rollebeskrivelser
 Vi har bevidst fordelt rollerne efter interesse og styrker, men ingen er låst til kun at arbejde inden for egen rolle. 
 Alle commit'er til alle dele af repository'et undervejs — rollerne styrer primært hvem der har det overordnede ansvar.
 
--------------------------------------------------------------------------------------------------------------------------
+
 Thomas — Frontend Lead
 Primært ansvar: HTML-struktur, sammenhæng på tværs af siderne, brugerflows.
 
@@ -14,7 +14,7 @@ Retter og opretter index.html, indsend-klage.html og mine-sager.html
 Faciliterer daily standups
 Tovholder på Pull Requests
 
--------------------------------------------------------------------------------------------------------------------------
+
 Kasper — Backend / Struktur
 Primært ansvar: Repository-struktur, mappeorganisering, mockup-data, GitHub-konfiguration.
 
@@ -26,7 +26,7 @@ Retter og opretter om-portalen.html, klagetyper.html og patientrettigheder.html
 Står for tekniske detaljer omkring versionsstyring og merges
 Skriver teknisk dokumentation om repo-strukturen
 
-------------------------------------------------------------------------------------------------------------------------
+
 Lasse — Dokumentation / Design
 Primært ansvar: CSS, visuelt udtryk, UML-diagrammer, projektdokumenter.
 
@@ -38,7 +38,7 @@ Forfatter designdokument og retrospective
 Reviewer dokumentationen for sproglig kvalitet
 Skriver kontakt.html, faq.html og privatlivspolitik.html
 
-------------------------------------------------------------------------------------------------------------------------
+
 Fælles ansvar
 Selvom rollerne giver det overordnede ejerskab, er der områder hvor alle tre bidrager:
 
