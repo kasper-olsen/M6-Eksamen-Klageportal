@@ -3,7 +3,7 @@ Designdokument
 Dette dokument beskriver de design-overvejelser, der ligger bag klageportalen — både visuelt og funktionelt. 
 Det er målrettet os selv som udviklingsteam og fungerer som reference når vi træffer designvalg undervejs.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Målgruppe og kontekst
 Portalen henvender sig til patienter og pårørende der har haft kontakt med Aalborg Supersygehus og ønsker at indgive en klage. Målgruppen har typisk:
 
@@ -14,7 +14,7 @@ Behov for at føle sig hørt og taget alvorligt
 
 Det sidste punkt er vigtigt. Vi har bevidst valgt et roligt, neutralt visuelt udtryk frem for noget der signalerer marketing eller "moderne tech". Portalen skal føles som et offentligt redskab — ikke som et produkt.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Designprincipper
 Vi har formuleret fire principper som vi tester vores designvalg op imod:
 
@@ -23,7 +23,7 @@ Tilgængelighed som default: Læsbar typografi, høj kontrast.
 Rolig æstetik: Begrænset farvepalette, ingen animationer der distraherer.
 Konsekvens: Samme komponenter ser ens ud på tværs af siderne.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Visuelt udtryk
 Farver
 
@@ -34,14 +34,14 @@ Baggrund    |    Lys grå      |    #f5f5f5
 Tekst       |    Mørk grå     |    #1a1a1a
 Advarsel    |    Dæmpet rød   |    #a83232
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Typografi
   Overskrifter: System sans-serif (Segoe UI / Helvetica / Arial)
   Brødtekst: Samme sans-serif
   Basis font-size: 18px 
   Linjehøjde: 1.6
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Navigationsstruktur
 Forside
 ├── Om portalen
@@ -60,7 +60,7 @@ Forside
 
 ├── Privatlivspolitik (footer)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Komponenter
 Vi genbruger en håndfuld komponenter på tværs af siderne:
 
@@ -73,4 +73,4 @@ Status                  |    mine sager      |    Farver der viser sagsstatus
 Accordion (FAQ)         |    FAQ             |    Spørgsmål med expand/collapse svar
 Footer                  |    Alle sider      |    Kontakt + GDPR-link + ophavsret
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
