@@ -29,6 +29,7 @@ Visuelt udtryk
 Farver
 
 Rolle       |    Farve        |    Hex
+            |                 |
 Primær      |    Mørkeblå     |    #1a4480
 Sekundær    |    Petroleum    |    #2c6e7f    
 Baggrund    |    Lys grå      |    #f5f5f5
@@ -66,6 +67,7 @@ Komponenter
 Vi genbruger en håndfuld komponenter på tværs af siderne:
 
 Komponent               |    Hvor            |    Beskrivelse
+                        |                    |
 Header med navigation   |    Alle sider      |    Logo + 8 menuitems
 Hero-sektion            |    Forside         |    Stort overskrift + indgangsknap til klageformular
 Info-kort               |    Flere sider     |    Tre-kolonne layout med ikon, overskrift, kort tekst
@@ -73,5 +75,3 @@ Formularsektion         |    Indsend klage   |    Label + input + hjælpetekst
 Status                  |    mine sager      |    Farver der viser sagsstatus
 Accordion (FAQ)         |    FAQ             |    Spørgsmål med expand/collapse svar
 Footer                  |    Alle sider      |    Kontakt + GDPR-link + ophavsret
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
