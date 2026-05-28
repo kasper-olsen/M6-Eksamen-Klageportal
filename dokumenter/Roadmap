@@ -1,0 +1,62 @@
+# Roadmap
+
+Et roadmap er et redskab til at kommunikere projektets retning over tid, og dermed ikke en detaljeret plan, men et overblik over større faser samt milepæle. Vores roadmap viser det vi rent faktisk har opnået og steder hvor portalen kunne udvikles hen i fremtiden.
+
+# Oversigt
+
+Sprint 1 (Dag 1)          Sprint 2 (Dag 2)          Hypotetisk fremtid
+───────────────────────   ───────────────────────   ───────────────────────
+Setup & Design            Implementering & Test     Reelle features
+                                                    
+■ Repo + Project board    ■ HTML-sider              ○ Backend (Firestore)
+■ Projektbeskrivelse      ■ CSS-styling             ○ MitID-integration
+■ Use case diagram        ■ Teknisk dokumentation   ○ Dashboard for ledelse
+■ Activity diagram        ■ Sprint review           
+■ Roadmap + projektplan   ■ Retrospective           
+■ Roller fordelt                                    
+
+
+■ = Leveret i opgaven    ○ = Uden for scope (fremtidig idé)
+
+
+# Sprint 1: Setup, Design og Dokumentation (Dag 1)
+
+*Mål:* Have alle rammer på plads, så Sprint 2 kan fokusere på implementering
+
+**Leverancer:**
+- GitHub repository konfigureret med branches og adgangsrettigheder
+- GitHub Project board oprettet med initiale issues
+- Projektbeskrivelse, rollebeskrivelser, roadmap og projektplan skrevet
+- Færdigt Use Case- og Activity-diagram 
+- Designdokument med overordnet visuelt udtryk fastlagt
+
+**Definition of Done:**
+- Alle dokumenter er commitet til *main* via Pull Requests 
+- Alle tre i gruppen kan klone repository og åbne det lokalt
+- Sprint review er gennemført
+
+# Sprint 2: Implementering og Aflevering (Dag 2)
+
+*Mål:* Færdiggøre alt kode og afslutte dokumentationen
+
+**Leverancer:**
+- Minimum 8 HTML-sider 
+- Minimum 2 CSS-filer 
+- Teknisk dokumentation færdigskrevet (Markdown)
+- Retrospective gennemført og dokumenteret
+- Alle fra gruppen har lavet commits, branches og merges
+
+**Definition of Done:**
+- Repoository er klar til aflevering
+- Alle sider virker
+- Mindst en Pull Request er reviewet af mindst et andet gruppemedlem
+- Retrospective er commitet
+
+# Hypotetisk videreudvikling af projektet
+Dette punkt omhandler hvordan projektet kunne se ud i fremtiden, med et større teknisk fokus
+
+| Område | Tænkt feature | Begrundelse |
+
+| Backend - Firestore-database til sager - Vil gøre portalen reelt brugbar |
+| Sikkerhed - MitID-login - Krav for håndtering af følsomme oplysninger |
+| Analytics - Dashboard til ledelse - Strategisk indblik i klager og mønstre derved |
