@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patientrettigheder — Klageportal AAUH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">Klageportal AAUH</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="om-portalen.html">Om portalen</a></li>
+                    <li><a href="indsend-klage.html">Indsend klage</a></li>
+                    <li><a href="klagetyper.html">Klagetyper</a></li>
+                    <li><a href="mine-sager.html">Mine sager</a></li>
+                    <li><a href="patientrettigheder.html" class="active">Rettigheder</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Dine rettigheder som patient</h1>
+            <p class="lead">Som patient i det danske sundhedsvæsen har du en række rettigheder. Her er en oversigt over de mest centrale i forhold til klager.</p>
+        </section>
+
+        <section class="content">
+            <h2>Retten til at klage</h2>
+            <p>Du har ret til at klage over behandling, sundhedsfaglig virksomhed og afgørelser truffet i regionen. Klager kan rettes både til hospitalet selv (via denne portal) og til eksterne instanser som Styrelsen for Patientklager.</p>
+
+            <h2>Retten til information</h2>
+            <p>Du har ret til klar information om din diagnose, behandlingsmuligheder, risici og forventede resultat. Hvis du ikke har modtaget denne information, kan det være grundlag for en klage.</p>
+
+            <h2>Retten til aktindsigt</h2>
+            <p>Du har ret til at se din egen journal. Anmodningen kan sendes til hospitalets journalkontor.</p>
+
+            <h2>Retten til en patientvejleder</h2>
+            <p>Hver region har en patientvejleder der gratis og uforpligtende hjælper med vejledning om dine rettigheder og klagemuligheder. Patientvejlederen er uvildig.</p>
+
+            <h2>Klagefrister</h2>
+            <ul>
+                <li><strong>Lokal klage</strong> (denne portal): Ingen formel frist, men jo hurtigere desto bedre.</li>
+                <li><strong>Styrelsen for Patientklager</strong>: 2 år fra hændelsen, dog senest 5 år efter.</li>
+                <li><strong>Patientforsikringen</strong> (erstatningssager): 3 år fra du blev bekendt med skaden.</li>
+            </ul>
+
+            <h2>Eksterne instanser</h2>
+            <p>Ud over hospitalets egen klagebehandling kan du gå til:</p>
+            <ul>
+                <li><strong>Styrelsen for Patientklager</strong> — behandler klager over sundhedsfaglig behandling</li>
+                <li><strong>Patienterstatningen</strong> — behandler krav om erstatning</li>
+                <li><strong>Datatilsynet</strong> — klager over behandling af personoplysninger</li>
+            </ul>
+
+            <div class="callout">
+                <h3>Brug for hjælp?</h3>
+                <p>Ring til vores patientvejleder på telefon 97 66 12 34, alle hverdage mellem 9 og 15.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p><strong>Aalborg Universitetshospital</strong><br>
+            Hobrovej 18-22, 9000 Aalborg<br>
+            Telefon: 97 66 00 00</p>
+            <p><a href="privatlivspolitik.html">Privatlivspolitik</a> · <a href="kontakt.html">Kontakt</a></p>
+            <p class="small">Denne portal er en prototype udviklet i forbindelse med IT-Ledelse, M6, foråret 2026.</p>
+        </div>
+    </footer>
+</body>
+</html>
