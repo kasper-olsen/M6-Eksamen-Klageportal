@@ -35,7 +35,7 @@ Portalen er en prototype og indeholder IKKE
 Disse er bevidst skåret fra fordi fokus er på udviklingsprocessen og mindre det tekniske
 
 # 4. Udviklingsproces
-Vi har valgt at arbejde efter en "Scrum-light" model, som beskrevet af Sommerville (2016, kapitel. 3). Scrum er valgt frem for ren plan-driven udvikling fordi vi har været begrænset på tid og forventer at vores forståelse af produktet vil skifte undervejs. Samtidig har vi skåret nogle af Scrum-ceremonierne ned i omfang for at passe metoden til projektets størrelse. Ifølge Sommerville (2016, s. 72) bør agile metoder tilpasses kontekst og ikke følges slavisk.
+Vi har valgt at arbejde efter en "Scrum tilgang". Scrum er valgt frem for ren plan-driven udvikling fordi vi har været begrænset på tid og forventer at vores forståelse af produktet vil skifte undervejs. Samtidig har vi skåret nogle af Scrum-ceremonierne ned i omfang for at passe metoden til projektets størrelse.
 
 Konkret betyder det:
 
@@ -43,6 +43,8 @@ Konkret betyder det:
 - *Sprint planlægning* indleder hvert sprint 
 - *Daily standup* om morgenen 
 - *Sprint review og retrospective* afslutter hvert sprint
+
+Vi bruger derudover **Kanban-board i GitHub Projects** som vores styringsværktøj. Det giver et samlet visuelt overblik over arbejdet der udføres af hver person og status på dette. Det opdeles i: (Backlog / To Do / In Progress / Review / Done).
 
 # 5. Roller
 Vi har fordelt rollerne efter den enkeltes interesseområde, men alle bidrager på tværs 
