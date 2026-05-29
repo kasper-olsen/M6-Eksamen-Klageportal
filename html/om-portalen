@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om portalen — Klageportal AAUH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">Klageportal AAUH</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="om-portalen.html" class="active">Om portalen</a></li>
+                    <li><a href="indsend-klage.html">Indsend klage</a></li>
+                    <li><a href="klagetyper.html">Klagetyper</a></li>
+                    <li><a href="mine-sager.html">Mine sager</a></li>
+                    <li><a href="patientrettigheder.html">Rettigheder</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Om Klageportalen</h1>
+            <p class="lead">Klageportalen er Aalborg Universitetshospitals digitale indgang for patienter og pårørende, der ønsker at klage over behandling, kommunikation eller sagsforløb.</p>
+        </section>
+
+        <section class="content">
+            <h2>Vores formål</h2>
+            <p>Hospitalet behandler hvert år tusinder af patienter. Langt de fleste oplever et godt og kompetent forløb, men nogle gange går noget galt. Klageportalen findes for at gøre det let, gennemsigtigt og trygt at give besked når det sker. Vi ønsker at lære af klagerne, så fejl ikke gentager sig.</p>
+
+            <h2>Hvad portalen kan</h2>
+            <ul>
+                <li>Modtage klager via en simpel online formular</li>
+                <li>Give dig et sagsnummer så du kan følge med</li>
+                <li>Informere dig om dine rettigheder som patient</li>
+                <li>Pege dig videre til relevante eksterne instanser (Styrelsen for Patientklager m.fl.)</li>
+            </ul>
+
+            <h2>Hvad portalen ikke kan</h2>
+            <p>Portalen behandler ikke akutte hændelser. Hvis du eller en pårørende har behov for akut hjælp, skal du kontakte hospitalet direkte eller ringe 112.</p>
+
+            <h2>Behandlingstid</h2>
+            <p>Du modtager bekræftelse på din klage inden for tre hverdage. Selve sagsbehandlingen tager typisk fire uger, men kan i komplekse sager strække sig op til tre måneder.</p>
+
+            <h2>Hvem behandler din klage?</h2>
+            <p>Klagerne behandles af hospitalets klagekontor, som arbejder uafhængigt af de afdelinger der klages over. Det sikrer en upartisk vurdering.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p><strong>Aalborg Universitetshospital</strong><br>
+            Hobrovej 18-22, 9000 Aalborg<br>
+            Telefon: 97 66 00 00</p>
+            <p><a href="privatlivspolitik.html">Privatlivspolitik</a> · <a href="kontakt.html">Kontakt</a></p>
+            <p class="small">Denne portal er en prototype udviklet i forbindelse med IT-Ledelse, M6, foråret 2026.</p>
+        </div>
+    </footer>
+</body>
+</html>
