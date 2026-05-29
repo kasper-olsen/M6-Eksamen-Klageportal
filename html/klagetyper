@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klagetyper — Klageportal AAUH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">Klageportal AAUH</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="om-portalen.html">Om portalen</a></li>
+                    <li><a href="indsend-klage.html">Indsend klage</a></li>
+                    <li><a href="klagetyper.html" class="active">Klagetyper</a></li>
+                    <li><a href="mine-sager.html">Mine sager</a></li>
+                    <li><a href="patientrettigheder.html">Rettigheder</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Klagetyper</h1>
+            <p class="lead">Vi behandler følgende typer klager. Vælg den der bedst passer til din situation, når du udfylder klageformularen.</p>
+        </section>
+
+        <section class="content">
+            <article class="info-block">
+                <h2>Behandlingsforløb</h2>
+                <p>Klager der vedrører den medicinske eller plejefaglige behandling — fx forkert diagnose, manglende behandling eller komplikationer der kunne være undgået. Disse klager kan også sendes direkte til Styrelsen for Patientklager.</p>
+            </article>
+
+            <article class="info-block">
+                <h2>Kommunikation med personale</h2>
+                <p>Klager over måden du eller dine pårørende er blevet talt til eller informeret. Det kan være manglende information om indgreb, uvenlig adfærd eller utilstrækkelig forklaring af din diagnose.</p>
+            </article>
+
+            <article class="info-block">
+                <h2>Ventetid</h2>
+                <p>Klager over urimelig lang ventetid på undersøgelse, behandling eller svar — herunder også manglende overholdelse af lovbestemte ventetider.</p>
+            </article>
+
+            <article class="info-block">
+                <h2>Journalføring</h2>
+                <p>Klager der vedrører fejl i journalen, manglende registrering, eller anmodning om at få rettet oplysninger.</p>
+            </article>
+
+            <article class="info-block">
+                <h2>Praktiske forhold</h2>
+                <p>Klager over rengøring, mad, lokaler, parkering og andre praktiske forhold under et hospitalsophold.</p>
+            </article>
+
+            <article class="info-block">
+                <h2>Andet</h2>
+                <p>Passer din klage ikke ind i kategorierne ovenfor? Vælg "Andet" og beskriv din situation. Vi finder den rette behandling.</p>
+            </article>
+
+            <div class="callout">
+                <h3>Er du i tvivl?</h3>
+                <p>Du kan altid kontakte vores patientvejleder for en uforpligtende snak. Se <a href="kontakt.html">kontaktoplysninger</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p><strong>Aalborg Universitetshospital</strong><br>
+            Hobrovej 18-22, 9000 Aalborg<br>
+            Telefon: 97 66 00 00</p>
+            <p><a href="privatlivspolitik.html">Privatlivspolitik</a> · <a href="kontakt.html">Kontakt</a></p>
+            <p class="small">Denne portal er en prototype udviklet i forbindelse med IT-Ledelse, M6, foråret 2026.</p>
+        </div>
+    </footer>
+</body>
+</html>
