@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine sager — Klageportal AAUH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">Klageportal AAUH</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="om-portalen.html">Om portalen</a></li>
+                    <li><a href="indsend-klage.html">Indsend klage</a></li>
+                    <li><a href="klagetyper.html">Klagetyper</a></li>
+                    <li><a href="mine-sager.html" class="active">Mine sager</a></li>
+                    <li><a href="patientrettigheder.html">Rettigheder</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Mine sager</h1>
+            <p class="lead">Her kan du se status på de klagesager du har indsendt. I prototypen vises eksempeldata.</p>
+        </section>
+
+        <section class="content">
+            <div class="prototype-note">
+                <strong>Prototype:</strong> I et færdigt system ville man kunne logge ind med MitID for at se egne sager. Her vises tre eksempelsager.
+            </div>
+
+            <table class="sager-tabel">
+                <thead>
+                    <tr>
+                        <th>Sagsnummer</th>
+                        <th>Indsendt</th>
+                        <th>Klagetype</th>
+                        <th>Afdeling</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>K-2026-0142</td>
+                        <td>14. marts 2026</td>
+                        <td>Ventetid</td>
+                        <td>Ortopædkirurgisk</td>
+                        <td><span class="status status-done">Afsluttet</span></td>
+                    </tr>
+                    <tr>
+                        <td>K-2026-0287</td>
+                        <td>2. maj 2026</td>
+                        <td>Kommunikation</td>
+                        <td>Akutmodtagelsen</td>
+                        <td><span class="status status-active">Under behandling</span></td>
+                    </tr>
+                    <tr>
+                        <td>K-2026-0312</td>
+                        <td>20. maj 2026</td>
+                        <td>Behandlingsforløb</td>
+                        <td>Hjertemedicinsk</td>
+                        <td><span class="status status-new">Modtaget</span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Statusforklaring</h2>
+            <dl class="status-forklaring">
+                <dt><span class="status status-new">Modtaget</span></dt>
+                <dd>Din klage er modtaget og afventer fordeling til en sagsbehandler.</dd>
+
+                <dt><span class="status status-active">Under behandling</span></dt>
+                <dd>En sagsbehandler arbejder med din sag. Du modtager besked når der er nyt.</dd>
+
+                <dt><span class="status status-done">Afsluttet</span></dt>
+                <dd>Sagen er afsluttet. Du har modtaget et skriftligt svar.</dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p><strong>Aalborg Universitetshospital</strong><br>
+            Hospitalsbyen 1, 9260 Gistrup<br>
+            Telefon: 97 66 00 00</p>
+            <p><a href="privatlivspolitik.html">Privatlivspolitik</a> · <a href="kontakt.html">Kontakt</a></p>
+            <p class="small">Denne portal er en prototype udviklet til M6 eksamen.</p>
+        </div>
+    </footer>
+</body>
