@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Klageportal AAUH — Responsive styling
+   Forfatter: Lasse
+   Mobile-first light: tilpasser desktop-layoutet til mindre skærme
+   ========================================================================== */
+
+/* Tablet og mindre */
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        gap: var(--spacing-sm);
+    }
+
+    nav a {
+        font-size: 0.85rem;
+        padding: 0.2rem 0.4rem;
+    }
+
+    main {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding: var(--spacing-lg);
+    }
+
+    .content {
+        padding: var(--spacing-md);
+    }
+
+    /* Tabel bliver scrollbar i stedet for at brække layoutet */
+    .sager-tabel {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+/* Lille mobil */
+@media (max-width: 480px) {
+    main {
+        padding: var(--spacing-md) var(--spacing-sm);
+    }
+
+    .hero {
+        padding: var(--spacing-md);
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .form-actions .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+    }
+}
