@@ -1,0 +1,41 @@
+Retrospective
+Review meeting (retrospective) handler ifølge Sommerville (2016, s. 87) om at forbedre selve processen og ikke kun produktet. 
+Vi har afholdt vores review meeting i slutningen af Sprint 2, lige før afleveringen.
+
+Strukturen er den klassiske tre delte opsætning: Hvad gik godt? Hvad gik mindre godt? Hvad vil vi gøre anderledes?
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hvad gik godt:
+Klar rollefordeling fra start: Vi besluttede inden Sprint 1, hvem der havde overordnet ansvar for hvad. 
+Det betød, at vi sjældent stod i situationer hvor "ingen lavede X" eller "to lavede X". 
+
+Hyppige commits: Vi aftalte at committe efter hver afsluttet underopgave. 
+Det gav en pæn historik, der afspejlede det reelle arbejde. Det viste sig også at være lærerigt for os, da vi ikke havde brugt GitHub meget før.
+
+Daily standup virkede: Selv på 2 dage gav det værdi at samles 10 minutter om morgenen. 
+Det gjorde at vi alle var klar over hvad der skulle laves og hvornår. Det gjorde også at vi vidste, hvad hinanden gik i gang med. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hvad gik mindre godt
+Branch-strategi: Vi prioriterede ikke reviews af branches nok inden vi mergede. 
+Dette førte til et problem da index filen skulle testes til sidst hvor en branch var blevet duplikeret og vi skulle derfor bruge lang tid på at fejlfinde.
+
+For lidt code review: Vi satte ikke krav om review på alle Pull Requests — kun "mindst én PR skulle reviewes". 
+I praksis betød det at mange PRs blev merget af samme person der lavede dem. Til et større projekt ville det være et reelt problem.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hvad vil vi gøre anderledes næste gang:
+Forbedring                                      |Hvorfor
+_______________________________________________________________________________________________________________
+Branch-discipline gennem hele projektet         | Definér eksplicit at alle commits skal gå via PR også de små.
+Definér obligatorisk code review for alle PRs   | Selv 5 minutters review fanger ting.
+Brug GitHub Project board mere konsekvent       | Vi glemte løbende at trække issues fra "In Progress" til "Done".
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Refleksion:
+Det er værd at notere, at vi har lavet retrospective af et 2-dages projekt. 
+Sommerville beskriver retrospective som et redskab til at forbedre teamet over tid, og vi har ikke "næste sprint" at bruge læringen i. 
+Men selv refleksionsøvelsen i sig selv har værdi: den tvinger os til at sætte ord på, hvad vi har lært.
+
+Til eksamen kan vi diskutere om retrospective overhovedet giver mening på så korte projekter. 
+Vores erfaring er, at det gør, bare i en anden form. Det handler mindre om "kontinuerlig forbedring" og mere om "konsolidering af læring".
