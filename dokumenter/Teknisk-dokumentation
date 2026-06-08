@@ -1,17 +1,17 @@
-# Teknisk dokumentation
+Teknisk dokumentation
 
 Dette dokument beskriver hvordan kodebasen er bygget op, og hvordan man som ny i projektet kommer i gang. Det er skrevet så det også kan læses af en person der ikke kender HTML og CSS i forvejen.
 
-## 1. Hvad består projektet af?
+1. Hvad består projektet af?
 
 Projektet er en helt almindelig hjemmeside lavet med to teknologier:
 
-- *HTML* — selve indholdet på siderne (tekst, knapper, formularer)
-- *CSS* — udseendet (farver, skriftstørrelser, layout)
+- HTML — selve indholdet på siderne (tekst, knapper, formularer)
+- CSS — udseendet (farver, skriftstørrelser, layout)
 
 Der er ingen database, ingen backend og ingen JavaScript. Det er en *statisk side* — alle siderne ligger som færdige filer i mappen.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## 2. Filer og mapper
+2. Filer og mapper
 
 ```
 klageportal/
@@ -40,16 +40,16 @@ klageportal/
 
 ```
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## 3. Sådan ser du hjemmesiden
+3. Sådan ser du hjemmesiden
 
 Du behøver ikke installere noget. Bare åbn `index.html` i en almindelig browser:
 
-- *Mac:* Dobbeltklik på filen
-- *Windows:* Højreklik → "Åbn med" → din browser
+- Mac: Dobbeltklik på filen
+- Windows: Højreklik → "Åbn med" → din browser
 
 Du kan klikke rundt mellem alle siderne via menuen øverst.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## 4. CSS — sådan er udseendet bygget op
+4. CSS — sådan er udseendet bygget op
 
 Vi har delt vores CSS op i tre filer for at holde det overskueligt:
 
@@ -59,7 +59,7 @@ Vi har delt vores CSS op i tre filer for at holde det overskueligt:
  `forms.css` | Kun udseendet af formularen på `indsend-klage.html` 
  `responsive.css` | Sørger for at siden også ser ordenlig ud på mobil 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## 5. Hvad gør hver HTML-side?
+5. Hvad gør hver HTML-side?
 
  Side | Indhold 
 
@@ -73,7 +73,7 @@ Vi har delt vores CSS op i tre filer for at holde det overskueligt:
  `faq.html` | Ofte stillede spørgsmål 
  `privatlivspolitik.html` | GDPR-information 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## 6. Brug af GitHub
+6. Brug af GitHub
 
 Vi har brugt *Git* til at gemme alle ændringer og *GitHub* som det fælles sted hvor filerne ligger. Herunder er de centrale kommandoer vi har anvendt:
 
@@ -89,11 +89,11 @@ Vi har brugt *Git* til at gemme alle ændringer og *GitHub* som det fælles sted
 
 Vi lærte Git-kommandoerne undervejs i projektet — det var første gang vi brugte Git i praksis. Tutorials på Moodle hjalp os i gang.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## 7. Hvad har vi ikke lavet?
+7. Hvad har vi ikke lavet?
 
 Det prototypen *ikke* kan:
 
-- *Formularen sender ikke noget rigtigt afsted.* Når man trykker "Send klage", sker der ikke noget
-- *"Mine sager" er kun en mockup.** De tre eksempelsager er skrevet direkte i HTML.
-- *Ingen login.* Et rigtigt system skulle bruge MitID
-- *Ingen test af koden.* Vi fokuserede på processen over det tekniske
+- Formularen sender ikke noget rigtigt afsted. Når man trykker "Send klage", sker der ikke noget
+- "Mine sager" er kun en mockup. De tre eksempelsager er skrevet direkte i HTML.
+- Ingen login. Et rigtigt system skulle bruge MitID
+- Ingen test af koden. Vi fokuserede på processen over det tekniske
